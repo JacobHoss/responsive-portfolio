@@ -1,0 +1,5 @@
+/* Background Texture for all HTML Pages */
+* { background-color: #2b4a87;
+background-image: href="./assets/45-degree-febric-light";
+}
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
