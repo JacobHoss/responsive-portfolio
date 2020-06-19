@@ -1,9 +1,14 @@
-/* Background Texture for all body tags */
-body { background-color: #cccccc;
-background-image: href="./assets/asfalt-light";
+body { 
+	background-color: rgb(124, 119, 201);
+	background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
 }
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
 ul {
 	padding: 10px;
+}
+
+main {
+	background: white;
+	padding-bottom: 20px;
 }
