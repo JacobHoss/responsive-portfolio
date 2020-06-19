@@ -1,5 +1,9 @@
-/* Background Texture for all HTML Pages */
-* { background-color: #2b4a87;
-background-image: href="./assets/45-degree-febric-light";
+/* Background Texture for all body tags */
+body { background-color: #cccccc;
+background-image: href="./assets/asfalt-light";
 }
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+ul {
+	padding: 10px;
+}
