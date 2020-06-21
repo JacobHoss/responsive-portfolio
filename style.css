@@ -30,6 +30,10 @@ hr {
 	margin-left: 40px;
   } */
 
+.padding {
+	padding: 15px;
+}
+
 main {
 	background: white;
 	padding-bottom: 20px;
