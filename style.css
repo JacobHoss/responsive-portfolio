@@ -10,7 +10,8 @@
 
 body { 
 	background-color: rgb(237, 237, 237);
-background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+	background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+	padding-bottom: 120px;
 }
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
@@ -21,14 +22,6 @@ ul {
 hr {
 	border: 2px solid rgb(228, 228, 228);
 }
-
-/* .container {
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-top: 40px;
-	margin-left: 40px;
-  } */
 
 .padding {
 	padding: 15px;
@@ -79,6 +72,11 @@ label {
 	padding: 30px 0px;
 	border-top: 5px solid rgb(89, 170, 165);
  }
+
+ article {
+	 line-height: 1.5;
+	 font-family: Arial, Helvetica, sans-serif;
+ }
   
   @media only screen and (max-width: 640px) {
 	.navbar-brand {
@@ -86,8 +84,14 @@ label {
 	  text-align: center;
 	  margin: 0px;
 	}
-	ul {
-		display:flex;
-		justify-content: end;
-	}
+			/* this media query isn't doing what I want it to do */
+  /* @media only screen and (max-width: 980px) {
+	.container {
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-top: 40px;
+		margin-left: 40px;
+	  } 
+	} */
   }
