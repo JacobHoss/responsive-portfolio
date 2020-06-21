@@ -1,6 +1,11 @@
+#jacobhoss {
+	background-color: rgb(89, 170, 165);
+	padding: 30px;
+}
+
 body { 
-	background-color: rgb(124, 119, 201);
-	background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+	background-color: rgb(237, 237, 237);
+background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
 }
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
@@ -12,3 +17,5 @@ main {
 	background: white;
 	padding-bottom: 20px;
 }
+
+@media 

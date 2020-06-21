@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type= "text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./reset.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/phone.png">
 
     <title>Contact</title>
@@ -15,12 +16,12 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <a class="navbar-brand" href="#">Jacob Hoss</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="./index.html">About</a>
+            <a class="nav-link" href="./index.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./portfolio.html">Portfolio</a>
@@ -35,15 +36,15 @@
 <main class="mb-4 container">
 
   <!--Section heading-->
-  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-  <!--Section description-->
-  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly.</p>
+  <h2>Contact</h2>
+
+  <hr>
 
   <div class="row">
 
       <!--Grid column-->
       <div class="col-md-9 mb-md-0 mb-5">
-          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+          <form>
 
               <!--Grid row-->
               <div class="row">
@@ -51,34 +52,21 @@
                   <!--Grid column-->
                   <div class="col-md-6">
                       <div class="md-form mb-0">
+                        <label>Name</label>
                           <input type="text" id="name" name="name" class="form-control">
-                          <label for="name" class="">Your name</label>
                       </div>
                   </div>
                   <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input type="text" id="email" name="email" class="form-control">
-                          <label for="email" class="">Your email</label>
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
               </div>
-              <!--Grid row-->
 
-              <!--Grid row-->
               <div class="row">
-                  <div class="col-md-12">
-                      <div class="md-form mb-0">
-                          <input type="text" id="subject" name="subject" class="form-control">
-                          <label for="subject" class="">Subject</label>
-                      </div>
-                  </div>
-              </div>
-              <!--Grid row-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <label>Email</label>
+                    <input type="text" id="name" name="name" class="form-control">
+                </div>
+            </div>
+            </div>
 
               <!--Grid row-->
               <div class="row">
@@ -87,8 +75,8 @@
                   <div class="col-md-12">
 
                       <div class="md-form">
+                        <label>Message</label>
                           <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                          <label for="message">Your message</label>
                       </div>
 
                   </div>
@@ -98,7 +86,7 @@
           </form>
 
           <div class="text-center text-md-left">
-              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+              <a class="btn btn-primary">Submit</a>
           </div>
           <div class="status"></div>
       </div>
