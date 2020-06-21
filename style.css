@@ -1,6 +1,10 @@
-#jacobhoss {
-	background-color: rgb(89, 170, 165);
-	padding: 30px;
+#contact-header {
+	color: rgb(89, 170, 165);
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+	margin: 30px 0px 25px 5px;
+	padding-top: 20px;
 }
 
 body { 
@@ -13,9 +17,73 @@ ul {
 	padding: 10px;
 }
 
+#thicker {
+	border: 2px solid rgb(228, 228, 228);
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 40px;
+	margin-left: 40px;
+  }
+
 main {
 	background: white;
 	padding-bottom: 20px;
 }
 
-@media 
+label {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar-brand {
+	font-family: 'Times New Roman', Times, serif;
+	background:  rgb(89, 170, 165);
+	color: white !important;
+	padding: 25px;
+	font-size: 35px !important;
+	font-weight: bold;
+	margin-left: 23px;
+}
+
+  .btn {
+	background-color:rgb(89, 170, 165);
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	user-select: none;
+	padding: 0.375rem 1.25rem;
+	font-size: 20px;
+  }
+
+  .footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color:rgb(102, 102, 102);
+	color: lightgrey;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 30px 0px;
+	border-top: 5px solid rgb(89, 170, 165);
+ }
+  
+  @media only screen and (max-width: 640px) {
+	.navbar-brand {
+	  width: 100%;
+	  text-align: center;
+	  margin: 0px;
+	}
+	ul {
+		display:flex;
+		justify-content: end;
+	}
+  }
