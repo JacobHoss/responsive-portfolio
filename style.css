@@ -84,14 +84,11 @@ label {
 	  text-align: center;
 	  margin: 0px;
 	}
-			/* this media query isn't doing what I want it to do */
-  /* @media only screen and (max-width: 980px) {
-	.container {
-		width: 100%;
-		padding-right: 15px;
-		padding-left: 15px;
-		margin-top: 40px;
-		margin-left: 40px;
-	  } 
-	} */
-  }
+
+	}
+
+	@media only screen and (min-width: 980px) {
+		main {
+		  margin-left: 1.5rem;
+		}
+	  }
