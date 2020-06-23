@@ -1,3 +1,4 @@
+/* Heading styling for all 3 pages */
 .page-header {
 	color: rgb(89, 170, 165);
 	font-weight: bold;
@@ -7,38 +8,42 @@
 	padding-top: 20px;
 }
 
-
+/* Main background with color and texture */
 body { 
 	background-color: rgb(237, 237, 237);
 	background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
 	padding-bottom: 120px;
 }
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
+/* Padding for navbar links */
 ul {
 	padding: 10px;
 }
 
+/* Styling to make HR thicker and match wireframe */
 hr {
 	border: 2px solid rgb(228, 228, 228);
 }
 
+/* Class used for extra padding */
 .padding {
 	padding: 15px;
 }
 
+/* White background for the main content of each page */
 main {
 	background: white;
 	padding-bottom: 20px;
 }
 
+/* Used for the labels on the contact page (above the forms) */
 label {
 	margin-top: 20px;
 	margin-bottom: 10px;
 	font-family: Arial, Helvetica, sans-serif;
-
 }
 
+/* Specific styling for the Navbar-Brand */
 .navbar-brand {
 	font-family: 'Times New Roman', Times, serif;
 	background:  rgb(89, 170, 165);
@@ -48,6 +53,7 @@ label {
 	font-weight: bold;
 }
 
+/* Specific CSS Styling for buttons */
   .btn {
 	background-color:rgb(89, 170, 165);
 	font-family: Arial, Helvetica, sans-serif;
@@ -60,7 +66,14 @@ label {
 	font-size: 20px;
   }
 
-  .footer {
+/* Text styling for About Me Page */
+ article {
+	 line-height: 1.5;
+	 font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /* Footer class for all the pages. */
+ .footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -72,12 +85,8 @@ label {
 	padding: 30px 0px;
 	border-top: 5px solid rgb(89, 170, 165);
  }
-
- article {
-	 line-height: 1.5;
-	 font-family: Arial, Helvetica, sans-serif;
- }
   
+ /* This media query stretches the navbar-brand to 100% at a screen width anything less than 640px */
   @media only screen and (max-width: 640px) {
 	.navbar-brand {
 	  width: 100%;
@@ -87,8 +96,10 @@ label {
 
 	}
 
+	/* This media query pushes the main content to the left if screen-width is 980 or greater; matching the wireframe  */
 	@media only screen and (min-width: 980px) {
 		main {
 		  margin-left: 1.5rem;
+		  padding-bottom: 50px;
 		}
 	  }
