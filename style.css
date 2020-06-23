@@ -33,7 +33,7 @@ hr {
 /* White background for the main content of each page */
 main {
 	background: white;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 /* Used for the labels on the contact page (above the forms) */
@@ -64,10 +64,6 @@ label {
 	user-select: none;
 	padding: 0.375rem 1.25rem;
 	font-size: 20px;
-  }
-
-  .wdt-75 {
-	  width: 75%;
   }
 
 /* Variation of a Bootstrap Class (modified to match styling of wireframe) */
