@@ -66,6 +66,19 @@ label {
 	font-size: 20px;
   }
 
+  .wdt-75 {
+	  width: 75%;
+  }
+
+/* Variation of a Bootstrap Class (modified to match styling of wireframe) */
+  .carousel-caption {
+	background-color:rgb(89, 170, 165);
+	bottom: 27px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  }
+
 /* Text styling for About Me Page */
  article {
 	 line-height: 1.5;
