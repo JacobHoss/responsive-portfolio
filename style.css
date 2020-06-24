@@ -70,6 +70,7 @@ label {
   .carousel-caption {
 	background-color:rgb(89, 170, 165);
 	bottom: 27px;
+	z-index: 0 !important;
 	font-size: 25px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -93,6 +94,12 @@ label {
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 30px 0px;
 	border-top: 5px solid rgb(89, 170, 165);
+ }
+
+ /* Styling for the Social Media Icon PNGs */
+ .social-icons {
+	 width: 64px;
+	 padding-top: 20px;
  }
   
  /* This media query stretches the navbar-brand to 100% at a screen width anything less than 640px */
